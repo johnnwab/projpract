@@ -2,10 +2,7 @@
 # This will test password adminitration
 echo "Testing password administration"
 echo "This will use if statement"
-<<<<<<< HEAD
-=======
 echo "I like to use this to practice git"
->>>>>>> testgit
 
 password="581234"
 echo "Please enter your pin: "
