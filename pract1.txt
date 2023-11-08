@@ -6,8 +6,11 @@ echo "This is the only bank where tea is served to customers"
 read -p "Please enter your name: " name
 echo "Your name is $name : "
 echo "Thank you and proceed"
-echo -ns "Please enter your card pin: "
+echo "Please enter your card pin: "
 read pin
+echo "Try the second pin type"
+echo "Do you have a second pin?"
+read -sp "Key Second pin: " pin2 ;
 echo "Please enter your address for authentication "
 read add
 
@@ -15,5 +18,6 @@ echo "Confirm these were your entries"
 
 echo "Your name is $name "
 echo "Your card pin is $pin "
+echo "Your second pin2 is $pin2 "
 echo "Your address is $add "
 echo "Wait to be served tea and thanks for coming! " 
