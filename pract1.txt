@@ -1,5 +1,5 @@
 #!/bin/bash
-# This is used to test scripting class
+# This is used to test scripting class and remote repo
 echo "Welcome to ACADA bank ltd"
 echo "This is the only bank where tea is served to customers"
 
